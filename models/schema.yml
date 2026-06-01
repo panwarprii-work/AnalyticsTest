@@ -1,0 +1,12 @@
+# models/schema.yml
+
+version: 2
+
+models:
+  - name: customers_gupta
+    description: "Filtered records from TestGSDataSheet1 where last_name is Gupta"
+    columns:
+      - name: last_name
+        description: "Customer last name"
+        tests:
+          - not_null
